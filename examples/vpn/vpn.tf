@@ -1,6 +1,6 @@
 # An example of how to connect two GCE networks with a VPN
 provider "google" {
-  credentials = file("~/gce/account.json")
+#  credentials = file("~/gce/account.json")
   project     = var.project
   region      = var.region1
 }
